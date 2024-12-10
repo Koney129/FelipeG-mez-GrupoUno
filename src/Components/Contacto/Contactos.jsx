@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 export default function Contactos() {
   return (
@@ -14,4 +15,10 @@ export default function Contactos() {
       </div>
     </div>
   );
+=======
+export default function Contactos (){
+    return(
+        <div >Buenas</div>
+    )
+>>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750
 }

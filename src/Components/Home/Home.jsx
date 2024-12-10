@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 
+=======
+import { Link } from "react-router-dom"
+import ItemList from "../ItemList/ItemList"
+>>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750
 
 const Home = () =>{
     return(
@@ -19,5 +24,9 @@ const Home = () =>{
     )
 }
 
+<<<<<<< HEAD
 export default Home
 
+=======
+export default Home
+>>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750

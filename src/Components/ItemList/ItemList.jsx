@@ -5,12 +5,16 @@ import Item from "../Item/Item";
 
 export default function ItemList() {
   const [products, setProducts] = useState([]);
+<<<<<<< HEAD
   const [filteredProducts, setFilteredProducts] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState('Todos');
+=======
+>>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750
 
   useEffect(() => {
     getProducts().then((data) => {
       setProducts(data);
+<<<<<<< HEAD
       setFilteredProducts(data);
     });
   }, []);
@@ -43,6 +47,16 @@ export default function ItemList() {
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {filteredProducts.map((product) => (
+=======
+    });
+  }, []);
+
+  return (
+    <div className="container mx-auto p-4">
+      <h1 className="text-3xl font-bold mb-4">Lista de Productos</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {products.map((product) => (
+>>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750
           <Link key={product.id} to={`/item/${product.id}`}>
             <Item {...product} />
           </Link>
@@ -51,4 +65,7 @@ export default function ItemList() {
     </div>
   );
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750
