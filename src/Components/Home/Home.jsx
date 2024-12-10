@@ -3,9 +3,7 @@ const Home = () => {
         <div className="relative w-full h-screen">
             <img
                 className="absolute top-0 left-0 w-full h-screen object-cover"
-                src="https://cdn.shopify.com/s/files/1/0098/7247/4167/files/pc_gaming_con_setup_de_luces_led.jpg?v=1630513725"
-                alt="Fondo"
-            />
+                src="https://cdn.shopify.com/s/files/1/0098/7247/4167/files/pc_gaming_con_setup_de_luces_led.jpg?v=1630513725"/>
             <div className="bg-black/30 absolute top-0 left-0 w-full h-screen">
                 <div className="absolute top-0 w-full h-full flex flex-col justify-center text-white">
                     <div className="md:left-[10%] max-w-[1100px] m-auto p-4">
