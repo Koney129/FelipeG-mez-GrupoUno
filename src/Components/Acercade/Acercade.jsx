@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export default function Acercade() {
   return (
     <div className="relative w-full min-h-screen flex flex-col justify-center items-center">
@@ -12,10 +11,3 @@ export default function Acercade() {
     </div>
   );
 }
-=======
-export default function Acercade (){
-    return(
-        <div >  Hola Buenas   </div>
-    )
-}
->>>>>>> 06d5b64c22d797e0feb4154bac8bf7fb84047750
